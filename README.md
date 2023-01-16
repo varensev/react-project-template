@@ -47,7 +47,7 @@
 
 ```
 "scripts": {
-        "lint": "eslint --fix --ext .js,.jsx ."
+        "lint": "eslint --fix --ext .ts,.tsx ."
     }
 ```
 

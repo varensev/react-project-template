@@ -10,12 +10,6 @@ function App() {
                 <div>
                     dasd
                 </div>
-                <div>
-                    dasd
-                </div>
-                <div>
-                    dasd
-                </div>
             </Main>
 
         </>

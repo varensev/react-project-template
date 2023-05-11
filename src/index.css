@@ -19,7 +19,7 @@ body[data-theme='dark'] {
     --color-bg: #3f3f3f;
     --color-ui-base: #7a7a7a;
 
-    --shadow: #3f3f3f 0 0 8px;
+    --shadow: #252525 0 0 8px;
 }
 
 body[data-theme='light'] {

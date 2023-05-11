@@ -1,16 +1,39 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+:root{
+    /* Typography*/
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fw-ligth: 300;
+    --fw-normal: 400;
+    --fw-bold: 800;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    /* Other */
+    --radii: 0.5rem;
+    --family: 'Roboto', sans-serif;
 }
+
+
+body[data-theme='dark'] {
+    --color-text: white;
+    --color-bg: #3f3f3f;
+    --color-ui-base: #7a7a7a;
+
+    --shadow: #3f3f3f 0 0 8px;
+}
+
+body[data-theme='light'] {
+    --color-text: #3f3f3f;
+    --color-bg: #ffffff;
+    --color-ui-base: #c9c9c9;
+
+    --shadow: #676767 0 0 8px;
+}
+
+body {
+    font-family: var(--family);
+    color: var(--color-text);
+    font-weight: var(--fw-ligth);
+    background-color: var(--color-bg);
+}
+

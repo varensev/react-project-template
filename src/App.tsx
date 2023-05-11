@@ -1,11 +1,12 @@
-import './App.css';
+import {Header} from "./components/header/header";
 
-function App () {
+function App() {
 
     return (
-        <div className='App'>
-            <p>project-boot-ts</p>
-        </div>
+        <>
+            <Header/>
+        </>
     );
 }
+
 export default App;

@@ -83,12 +83,12 @@ npm install -D --save-exact prettier eslint-config-prettier
 }
 ```
 
-## Установка Redux
+## Установка Redux Toolkit
 
 Для установки Redux и React Redux выполните следующую команду:
 
 ```shell
-npm install redux react-redux --save
+npm install @reduxjs/toolkit
 ```
 
 Также можно установить пакет для интеграции с Redux DevTools:
